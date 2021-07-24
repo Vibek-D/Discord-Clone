@@ -1,9 +1,11 @@
 .sidebar {
     display: flex;
     flex-direction: column;
-    flex: 0.25;
     height: 100vh;
     background-color: #2f3135;
+    flex-shrink: 0;
+    width: 310px;
+    /* flex: 0.1703; */
 }
 
 .sidebar_top {
